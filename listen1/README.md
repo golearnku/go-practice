@@ -141,7 +141,7 @@ func DecimalToAny(num int64, n int) string {
 }
 ```
 
-- 想到另外一种方案，使用预生成的方式，基于 redis 的 list 存储，每次获取的时候 pop 一个出来就行了.
+   > 想到另外一种方案，使用预生成的方式，基于 redis 的 list 存储，每次获取的时候 pop 一个出来就行了.
 
 * 请设计系统和协议，使用以上算法，实现手机用户的注册和登录，要求能够实现 用户名与设备的绑定，并应对 10万用户/小时 的注册和登录压力，系统应具有横 向扩展能力。
 
@@ -151,5 +151,5 @@ func DecimalToAny(num int64, n int) string {
 
 * 请改进系统设计，允许用户更换手机时保留账号。
 
-> 设计的注册和登录请查看 `user_server` 目录
+    > 设计的注册和登录请查看 `user_server` [目录](https://github.com/golearnku/go-practice/tree/master/user_server)
 
