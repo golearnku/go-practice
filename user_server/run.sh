@@ -1,0 +1,1 @@
+go run cmd/main.go web -c ./etc/config -e dev
